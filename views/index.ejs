@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h2> <%= title %> </h2>
+        <ul>
+            <%movies.map((movie) => { %>
+                <li><%= movie.title %></li>
+                <li><%= movie.director %></li>
+                <li><%= movie.released %></li>
+                <li><%= movie.review %></li>
+            <% }) %>
+        </ul>
+    </body>
+</html>
