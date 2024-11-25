@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>New Movie</title>
+    </head>
+    <body>
+        <h2> <%= pageTitle %> </h2>
+        <form method="POST" action="/new">
+            <p>
+                <label for="title">
+                    <span>Title: </span>
+                </label>
+                <input type="text" id="title" name="title" required /> 
+            </p>
+            <p>
+                <label for="rating">
+                    <span>Rating: </span>
+                </label>
+                <input type="text" id="rating" name="rating" required />
+            </p>
+            <p>
+                <label for="review">
+                    <span>Review: </span>
+                </label>
+                <input type="text" id="review" name="review" required />
+            </p>
+            <p>
+                <button type="submit">ADD RATING</button>
+            </p>
+        </form>
+    </body>
+</html>

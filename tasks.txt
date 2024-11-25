@@ -1,5 +1,14 @@
+only display films title. Add an open button that will pop a window
+with rating and review
+
+add button to redirect to add new movie page
+
+create form to add a new film and make it populate movies array
+fields: title, rating, review
+
 below is done - but I need to figure out where to store
-and where to import the movies array (database)
+and where to import the movies array (database) - .render happens in the
+router and .get in the app.js
 
 Next, in your index template (in the "views" folder) loop through
 the messages array and for each one, display the user, text and

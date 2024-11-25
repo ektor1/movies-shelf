@@ -1,8 +1,8 @@
-const { Router } = require('express');
-const newFilmRouter = Router();
+const { Router } = require("express");
+const newRouter = Router();
 
-newFilmRouter.get('/new', (req, res) => {
-    direct to create movie controller
+newRouter.get("/", (req, res) => {
+    res.render("form", { pageTitle: "Add new movie" });
 });
 
-module.exports = newFilmRouter;
+module.exports = newRouter;
